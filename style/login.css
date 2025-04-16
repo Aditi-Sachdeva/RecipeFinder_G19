@@ -1,0 +1,113 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: CENTER;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(128,128,128,0.02);
+}
+
+.container {
+    text-align: left;
+    background: rgba(128,128,128,0.02);
+    padding: 20px;
+    position: fixed;
+    right: 20%;
+    bottom : 20%;
+}
+h1{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logo h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+#LoginImage{
+    position: fixed;
+    right: 50%;
+    height: 100%;
+    width: 5
+    0%;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+button{
+    border: 2px solid black;
+}
+
+.login-form button {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+}
+.login-form button.facebook {
+    background-color: #fff;
+    color: black;
+    border: 2px solid ;
+    border-color: rgba(0,0,0,0.35);
+    height: 52px;
+    width: 315px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.login-form button.google {
+    background-color: #fff;
+    color: black;
+    border: 2px solid ;
+    border-color: rgba(0,0,0,0.35);
+    height: 52px;
+    width: 315px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.login-form button.email{
+    background-color: #fff;
+    color: black;
+    border: 2px solid;
+    border-color: rgba(0,0,0,0.35);
+    height: 52px;
+    width: 315px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.login-form p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login-form a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 15px;
+}
+.login-form #account{
+    text-decoration: underline;
+}
+p ,#account{
+    font-size: 17px;
+    color: rgba(0,0,0,0.70)
+}
+.login-form button.facebook:hover,.login-form button.facebook:focus{
+    color: #fff;
+    background-color: #1877F2;
+
+}
+.login-form button.google:hover,.login-form button.google:focus{
+    color: #fff;
+    background-color: #EA4335;
+}
+.login-form button.email:hover,.login-form button.email:focus{
+    color: #fff;
+    background-color: black;
+}
+#logo{
+    height: 120px;
+    width:180px;
+}

@@ -7,7 +7,6 @@ body {
     margin: 0;
     background-color: rgba(128,128,128,0.02);
 }
-
 .container {
     text-align: left;
     background: rgba(128,128,128,0.02);
@@ -47,36 +46,6 @@ button{
     border: none;
     cursor: pointer;
 }
-.login-form button.facebook {
-    background-color: #fff;
-    color: black;
-    border: 2px solid ;
-    border-color: rgba(0,0,0,0.35);
-    height: 52px;
-    width: 315px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-}
-.login-form button.google {
-    background-color: #fff;
-    color: black;
-    border: 2px solid ;
-    border-color: rgba(0,0,0,0.35);
-    height: 52px;
-    width: 315px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-}
-.login-form button.email{
-    background-color: #fff;
-    color: black;
-    border: 2px solid;
-    border-color: rgba(0,0,0,0.35);
-    height: 52px;
-    width: 315px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-}
 .login-form p {
     margin-top: 20px;
     text-align: center;
@@ -93,19 +62,6 @@ button{
 p ,#account{
     font-size: 17px;
     color: rgba(0,0,0,0.70)
-}
-.login-form button.facebook:hover,.login-form button.facebook:focus{
-    color: #fff;
-    background-color: #1877F2;
-
-}
-.login-form button.google:hover,.login-form button.google:focus{
-    color: #fff;
-    background-color: #EA4335;
-}
-.login-form button.email:hover,.login-form button.email:focus{
-    color: #fff;
-    background-color: black;
 }
 #logo{
     height: 120px;

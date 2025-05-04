@@ -1,10 +1,10 @@
-# MidnightChef
+MidnightChef
 
 MidnightChef is a smart recipe finder web app that helps users generate creative and personalized recipes based on the ingredients they already have. It's built using React, Tailwind CSS, TypeScript, and integrates with Google's Gemini API for AI-powered cooking instructions.
 
 ---
 
-##  Features
+ Features
 
 -  Generate recipes using Google's Gemini AI
 -  Input your ingredients and get customized recipes
@@ -13,7 +13,7 @@ MidnightChef is a smart recipe finder web app that helps users generate creative
 
 ---
 
-## Tech Stack
+  Tech Stack
 
 - *React* – Frontend framework
 - *TypeScript* – Type-safe JavaScript

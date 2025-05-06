@@ -58,9 +58,7 @@
   
   .shimmer::before {
     @apply absolute top-0 -left-[100%] w-[200%] h-full;
-    background: linear-gradient(to right, transparent 0%, rgba(255, 255, 255, 0.05) 50%, transparent 100%);
-    animation: shimmer 2s infinite linear;
-    content: '';
+    background: linear-gradient(to right, transparent 0%, rgba(255, 255, 255, 0.05) 50%, transparent 100%)
   }
   
   .recipe-card {
